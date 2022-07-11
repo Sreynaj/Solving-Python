@@ -10,4 +10,5 @@ for i in range (min ,max+1):
             if (i %num)== 0:
                 break
         else:
-            print(L(i))
+            L.append(i)
+print(L)
