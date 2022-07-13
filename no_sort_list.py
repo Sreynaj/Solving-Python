@@ -26,4 +26,4 @@ while data_list:
             minimum = i
     new_list.append(minimum)
     data_list.remove(minimum)
-print("Accending" , new_list)
+print("Accending: " , new_list)
