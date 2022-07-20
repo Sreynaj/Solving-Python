@@ -1,5 +1,7 @@
+a = '---'
+print(a*15)#line
 #ask the user to enter the input
-FC = int(input("How many terms do you want to print?: "))
+FC = int(input("\nHow many terms do you want to print?: "))
 
 #first two terms
 n1=0
@@ -15,4 +17,5 @@ while count < FC:
     n2 = n12
     count += 1
     FB.append(n1)
-print("The fibonacci sequence of the numbers: ", FB)
+print("\nThe fibonacci sequence of the numbers:\n", FB)
+print(a*15)

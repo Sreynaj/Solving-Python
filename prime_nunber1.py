@@ -1,4 +1,6 @@
-print("\nChecking Your Prime Number! \n")
+a = '---'
+print(a*15)#line
+print("Checking Your Prime Number! \n")
 min = int(input("Enter your min number: " ))
 max = int(input("Enter your max number: "))
 
@@ -14,3 +16,4 @@ for num in range (min , max + 1 ):
         amount = amount + 1 #count the length 
     prime = True
 print("Your Total Prime Number: ", amount) #print out the length of the string 
+print(a*15)
