@@ -76,11 +76,7 @@ class Graph:
             for j in range(0+i, len(result)):
                 if result[i][j] != 0:
                     print("%d - %d: %d" % (i, j, result[i][j]))       
-                
-                
-                
-                
-                
+                            
                 # Example graph has 9 nodes
 example_graph = Graph(9)
                 
